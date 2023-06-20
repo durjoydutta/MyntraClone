@@ -1,2 +1,2 @@
 # MyntraClone
-A clone of famous e-commerce website "Myntra.com"
+An web app inspired from the famous e-commerce website "Myntra.com"
