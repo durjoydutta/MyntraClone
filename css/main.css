@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    background-color: #d9dbca;
 }
 
 body {
@@ -12,12 +13,13 @@ body {
     margin: 0 auto;
 }
 
-
-
 header {
     display: flex;
+    background-image: linear-gradient(#FFFFFF, #d9dbca);
+    padding-left: 3em;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
 }
 
 nav {
@@ -36,6 +38,8 @@ nav ul li a {
     color: black;
     text-transform: uppercase;
     font-size: 1.6rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
     position: relative;
 }
 
@@ -104,11 +108,14 @@ h1 {
 }
 
 .secondary-cta {
+    background-color: #79acd9;
     font-size: 1.8rem;
+    font-weight: bold;
     text-decoration: none;
     color: black;
     display: block;
-    padding: 1em 0;
+    border-radius: 1.9em;
+    padding: 1em 1em;
 }
 
 .secondary-cta svg {
